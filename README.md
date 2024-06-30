@@ -3,6 +3,11 @@
 ## Overview
 The provided project implements a control unit for a vending machine that dispenses items costing $0.25. The system displays the current total using two 7-segment displays and triggers a vend signal when $0.25 has been deposited in any combination. The system also includes an optional output for a change dispenser that dispenses the change as nickels.
 
+## Software and Hardware
+- Quartus Prime
+- ModelSim
+- DE1-SoC board
+
 ## Design
 The design uses a Moore-type sequential state machine to implement the vending machine logic. The state machine has the following states:
 - s0: Reset state
